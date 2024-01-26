@@ -15,8 +15,8 @@ const Products = () => {
           <div className="relative min-h-[540px]">
             <div className="flex flex-col items-center justify-between pt-10">
               <div className=" flex flex-col justify-center items-center ">
-              <h3 className="text-3xl font-semibold">PRODUCT</h3>
-                <p className="text-xl pt-2 text-center">
+              <h3 className="text-3xl text-white font-semibold">PRODUCT</h3>
+                <p className="text-xl text-white pt-2 text-center">
                 Lovable. Drawable. Magical.
                 </p>
                 <div className="flex gap-10 mt-2">
