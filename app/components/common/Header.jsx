@@ -8,7 +8,7 @@ import Image from 'next/image'
 const Header = () => {
   return (
     <header className=' sticky top-0 left-0 w-full bg-black opacity-80 backdrop-blur-sm bg-gradient-to-r from-slate-50/90 to-gray-50/90 z-50'>
-        <div className="container mx-auto flex justify-between lg:gap-5 font-thin text-sm items-center flex-wrap">
+        <div className="container mx-auto flex justify-between lg:gap-5 font-bold text-sm  items-center flex-wrap">
            
                 <Link href='/'>
                   <Image src="/logo.png" alt="logo" width={50} height={50} />
@@ -17,8 +17,8 @@ const Header = () => {
         
                 <Link href='/store'>Store
                 </Link>
-                <Link href='/about'>Contact
-                </Link>
+                {/* <Link href='/about'>Contact
+                </Link> */}
                 {/* <Link href='/about'>Ipad
                 </Link>
                 <Link href='/about'>Iphone

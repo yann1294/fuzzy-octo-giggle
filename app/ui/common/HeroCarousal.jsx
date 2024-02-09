@@ -19,9 +19,8 @@ export default class HeroCarousal extends Component {
       
     };
     return (
-      <div className="bg-[#F5F5F7] py-10 container ml-auto">
-      
-
+      <div className="bg-[#F5F5F7] py-10 container mx-auto">
+        <div className="flex-1 items-center justify-center">
         <Slider {...settings}>
           <div className="flex flex-col items-center justify-center gap-3">
           <img className="w-full" src="./Tole.png" alt="carousal" />
@@ -63,6 +62,7 @@ export default class HeroCarousal extends Component {
           <p className="text-center pt-3 hover:underline cursor-pointer"> Brands</p>
           </div>
         </Slider>
+        </div>
       </div>
     );
   }

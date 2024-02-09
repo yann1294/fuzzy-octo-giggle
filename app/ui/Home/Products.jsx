@@ -28,7 +28,7 @@ const Products = () => {
           </div>
         </div>
        
-        <div className="bg-black relative text-white ">
+        <div className="bg-black relative text-black ">
           <img
             src="./acier.jpg"
             className="absolute inset-0 object-cover w-full h-full"
@@ -36,7 +36,7 @@ const Products = () => {
           />
           <div className="relative min-h-[540px]">
             <div className="flex flex-col items-center justify-between pt-10">
-              <div className=" flex flex-col justify-center items-center text-white">
+              <div className=" flex flex-col justify-center items-center text-black">
                 <h3 className="text-3xl font-semibold">PRODUCT</h3>
                 <p className="text-xl pt-2">
                 Supercharged by M2 Pro and M2 Max.
@@ -97,9 +97,13 @@ const Products = () => {
                 </p>
 
                 <div className="flex gap-10 mt-5">
-                  <Link href="" className="text-lg ">Learn More</Link>
-                  <Link href="" className="text-lg ">Buy</Link>
-                </div>
+                    <Link href="" className="text-lg font-medium text-blue-500 hover:underline cursor-pointer">
+                      Learn More
+                    </Link>
+                    <Link href="" className="text-lg font-medium text-blue-500 hover:underline cursor-pointer">
+                      Buy
+                    </Link>
+                  </div>
               </div>
             </div>
           </div>
